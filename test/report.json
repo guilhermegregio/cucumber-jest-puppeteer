@@ -1,0 +1,62 @@
+[
+  {
+    "description": "As a developer\nI want to write tests in cucumber\nSo that the business can understand my tests",
+    "keyword": "Feature",
+    "name": "using feature files in jest",
+    "line": 1,
+    "id": "using-feature-files-in-jest",
+    "tags": [],
+    "uri": "test/features/page.feature",
+    "elements": [
+      {
+        "id": "using-feature-files-in-jest;i-want-see-the-cadastro-easynvest-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "I want see the Cadastro Easynvest Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user navigates to \"https://cadastro.easynvest.com.br\"",
+            "match": {
+              "location": "test/features/step_definitions/index.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "waits for 1 seconds",
+            "match": {
+              "location": "test/features/step_definitions/index.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "take screenshot",
+            "match": {
+              "location": "test/features/step_definitions/index.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -12,6 +12,7 @@
     "babel-core": "^6.26.3",
     "babel-env": "^2.4.1",
     "babel-jest": "^23.2.0",
+    "babel-register": "^6.26.0",
     "cucumber": "^4.2.1",
     "faker": "^4.1.0",
     "gherkin-jest": "^0.24.0",
