@@ -1,0 +1,23 @@
+{
+  "name": "e2e-puppetter-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "babel-jest": "^23.2.0",
+    "cucumber": "^4.2.1",
+    "faker": "^4.1.0",
+    "gherkin-jest": "^0.24.0",
+    "jest": "^23.2.0",
+    "jest-cli": "^23.2.0",
+    "jest-environment-node": "^23.3.0",
+    "puppeteer": "^1.1.1"
+  }
+}
